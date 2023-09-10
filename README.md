@@ -1,45 +1,26 @@
-**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**
+# Pokémon Breed Simulator
 
-When you're done, you can delete the content in this README and update the file with details for others getting started with your repository.
+This is an ongoing project to create a Pokémon breeding system for PokeMMO. It started as a project in Google Script and is being converted to JavaScript and, subsequently, TypeScript.
 
-*We recommend that you open this README in another tab as you perform the tasks below. You can [watch our video](https://youtu.be/0ocf7u76WSo) for a full demo of all the steps in this tutorial. Open the video in a new tab to avoid leaving Bitbucket.*
+## Project Objectives
 
----
+The main goal of this project is to develop a comprehensive tool for Pokémon breeding in PokeMMO, allowing players to simulate and explore different parent combinations to obtain Pokémon with desired traits and IV's. Additionally, the project aims to:
 
-## Edit a file
+- **Integration with PokeMMO:** Ensure that the system seamlessly integrates with PokeMMO so that players can use the generated information directly in the game.
 
-You’ll start by editing this README file to learn how to edit a file in Bitbucket.
+- **Google Sheets Support:** In addition to in-game integration, we also plan to provide a version that works with Google Sheets to facilitate breeding planning and tracking.
 
-1. Click **Source** on the left side.
-2. Click the README.md link from the list of files.
-3. Click the **Edit** button.
-4. Delete the following text: *Delete this line to make a change to the README from Bitbucket.*
-5. After making your change, click **Commit** and then **Commit** again in the dialog. The commit page will open and you’ll see the change you just made.
-6. Go back to the **Source** page.
+- **Modular Architecture:** We intend to separate the project's logic into independent modules, allowing specific parts to be used as microservices, and in other contexts if needed.
 
----
+- **Support for User-Customized Pokémon Database:** One of the unique features of this project is the ability to use a user-customized Pokémon database, providing a personalized experience for players. To ensure accessibility and flexibility, we also offer the option to store this data in Google Sheets if external storage is not feasible or if users prefer a cloud-based solution. Additionally, we are exploring the possibility of providing hosting services for this data, but the specifics, including size limitations and costs, are currently under consideration.
 
-## Create a file
+## Project Status
 
-Next, you’ll add a new file to this repository.
+As of now, the project is approximately halfway through its development cycle. While many core features have been successfully implemented and tested, there is still ongoing work to further enhance and refine the tool. We are dedicated to creating a robust and valuable resource for the PokeMMO community.
 
-1. Click the **New file** button at the top of the **Source** page.
-2. Give the file a filename of **contributors.txt**.
-3. Enter your name in the empty file space.
-4. Click **Commit** and then **Commit** again in the dialog.
-5. Go back to the **Source** page.
+Additionally, it's worth noting that all features related to Google Sheets integration have been completed or are in advanced stages of development, depending on your perspective. However, some issues persist with the viewing aspect of this integration, which we are actively addressing.
 
-Before you move on, go ahead and explore the repository. You've already seen the **Source** page, but check out the **Commits**, **Branches**, and **Settings** pages.
 
----
+## Contribution
 
-## Clone a repository
-
-Use these steps to clone from SourceTree, our client for using the repository command-line free. Cloning allows you to work on your files locally. If you don't yet have SourceTree, [download and install first](https://www.sourcetreeapp.com/). If you prefer to clone from the command line, see [Clone a repository](https://confluence.atlassian.com/x/4whODQ).
-
-1. You’ll see the clone button under the **Source** heading. Click that button.
-2. Now click **Check out in SourceTree**. You may need to create a SourceTree account or log in.
-3. When you see the **Clone New** dialog in SourceTree, update the destination path and name if you’d like to and then click **Clone**.
-4. Open the directory you just created to see your repository’s files.
-
-Now that you're more familiar with your Bitbucket repository, go ahead and add a new file locally. You can [push your change back to Bitbucket with SourceTree](https://confluence.atlassian.com/x/iqyBMg), or you can [add, commit,](https://confluence.atlassian.com/x/8QhODQ) and [push from the command line](https://confluence.atlassian.com/x/NQ0zDQ).
+If you're interested in contributing to this project, feel free to reach out to us. We value collaboration, and any help is welcome!
